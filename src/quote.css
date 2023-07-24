@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(126, 178, 88);
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: antiquewhite;
+  width: 600px;
+  min-height: 300px;
+  padding: 50px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 50px;
+  margin-top: 160px;
+}
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+p {
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+.quote-content {
+  padding-left: 30px;
+}
+
+.author {
+  text-align: end;
+  font-weight: 500;
+  color: rgb(126, 178, 88);
+}
+button {
+  font-size: 1.3rem;
+  padding: 12px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgb(126, 178, 88);
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(126, 178, 88);
+  color: aliceblue;
+}
+.button-position {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
